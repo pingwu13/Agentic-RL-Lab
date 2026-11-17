@@ -6,25 +6,37 @@
 uv sync
 ```
 
+![uv sync 执行截图](./Task01-学习笔记.assets/01-uv-sync.jpg)
+
 ```powershell
 uv run trio login
 ```
+
+![PyTRIO 登录执行截图](./Task01-学习笔记.assets/02-pytrio-login.jpg)
 
 ```powershell
 uv run swanlab login
 ```
 
+![SwanLab 登录执行截图](./Task01-学习笔记.assets/03-swanlab-login.jpg)
+
 ```powershell
 uv run swanlab verify
 ```
+
+![SwanLab 凭据验证执行截图](./Task01-学习笔记.assets/04-swanlab-verify.jpg)
 
 ```powershell
 uv run python experiments/grpo/01-demo-sync.py --steps 10 --batch-size 4 --group-size 8 --max-tokens 512 --swanlab-mode online
 ```
 
+![10 步 GRPO 训练的 PowerShell 截图](./Task01-学习笔记.assets/05-grpo-training.jpg)
+
 ```powershell
 uv run swanlab watch experiments/grpo/swanlog
 ```
+
+![SwanLab 本地日志命令的 PowerShell 截图](./Task01-学习笔记.assets/06-swanlab-watch.jpg)
 
 #### 笔记
 
